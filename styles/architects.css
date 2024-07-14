@@ -9,3 +9,86 @@
   font-weight: 400;
   font-size: normal;
 }
+
+.text-center {
+  text-align: center;
+}
+
+.display-flex {
+  display: flex;
+}
+/* dark 2 */
+.text-gray {
+  color: #424242;
+}
+/* dark 3 */
+.text-light-gray {
+  color: #727272;
+}
+
+/* background color */
+.bg-light {
+  background-color: rgba(255, 144, 14, 0.1);
+}
+
+/* Button */
+.btn-primary {
+  background-color: rgb(255, 144, 14);
+  color: #ffff;
+  font-size: 1.25rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  padding: 20px 25px;
+}
+/* Header styles */
+
+/* Navbar styles */
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+}
+.brand {
+  font-size: 3rem;
+  font-weight: 700;
+  color: rgb(19, 19, 19);
+}
+.nav-links {
+}
+.nav-item {
+  list-style: none;
+  margin-left: 30px;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+.navbar,
+.banner {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* banner related styles */
+.banner-content {
+  max-width: 862px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.banner-title {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.banner-description {
+  font-size: 1rem;
+}
+
+.banner-image {
+  width: 100%;
+  margin-bottom: 45px;
+}
+
+/* responsive media query */
